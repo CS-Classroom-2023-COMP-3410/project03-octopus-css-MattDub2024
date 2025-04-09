@@ -4,27 +4,82 @@
 <head>
     <meta charset="UTF-8">
     <title>The Fascinating World of Octopuses</title>
+    <style>
+        h1{
+            text-align: center;
+            margin-top:0px;
+            margin-bottom:0px;
+            
+        }
+
+
+        #header{
+            background-color: #1b75c4;
+            border-color:#1b75c4;
+            padding: 20px;
+            text-align: center;
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        img {
+            position: absolute;
+            top: 570px;   /* 50px from the top of the page */
+            left: 1000px; /* 100px from the left of the page */
+            color:rgb(190, 22, 22)
+        }
+
+       
+        #quiz-section{
+            background-color: #a9e5fd;
+            padding: 10px;
+            margin: 20px ;
+            
+        }
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: rgba(232, 232, 232, 0.737);
+            margin:0;
+            
+
+        }
+
+        .imageBorder{
+            border: 10px;
+            
+        }
+
+        .important{
+            color: #c41b1b;
+            font-weight: bold;
+        }
+
+        
+
+
+    </style>
 </head>
 
 <body>
     <!-- Header Section -->
     <div id="header">
         <h1>The Fascinating World of Octopuses</h1>
-        <p>Welcome to this intriguing corner of the internet!</p>
+        <p style="margin:0;" style="margin-bottom: 0;" ><span style="font-style: italic;">Welcome to this intriguing corner of the internet!</span><span></p>
     </div>
 
     <!-- Main Content -->
     <div id="main-content">
 
         <!-- Introduction -->
-        <h2>Introduction</h2>
-        <p>
+        <h2 style="margin-top:0;">Introduction</h2>
+        <p style="margin: 0;">
             Octopuses are among the most fascinating creatures in the ocean.
             They are known for their intelligence and remarkable adaptability.
         </p>
 
         <!-- Amazing Facts -->
-        <h3>Amazing Facts</h3>
+        <h3 style="margin-top: 0;">Amazing Facts</h3>
         <!-- Unordered list -->
         <ul>
             <li>They have three hearts.</li>
@@ -60,7 +115,7 @@
         <div id="quiz-section">
 
             <!-- Image -->
-            <img src="octopus-image.png" alt="Image of an octopus" width="100">
+            <img src="octopus-image.png" alt="Image of an octopus" width="100" class="imageBorder">
 
             <h2>Octopus Quiz</h2>
             <form action="/submit-quiz" method="POST">
@@ -82,7 +137,7 @@
     <div id="species-table">
         <h2>Common Octopus Species</h2>
         <table border="1">
-            <tr>
+            <tr style="background: grey; color: white;  height:30px">
                 <th>Species</th>
                 <th>Location</th>
                 <th>Size</th>
@@ -101,7 +156,7 @@
     </div>
 
     <!-- Footer -->
-    <div id="footer">
+    <div id="footer" style=" background-color: rgb(156, 156, 156);">
         <p>
             &copy; 2023 The Fascinating World of Octopuses. All rights reserved.
             <!-- HTML entities for special characters -->
